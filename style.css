@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+body{
+    /* background:url("https://www.digitaldesignjournal.com/wp-content/uploads/2020/01/free-css-particle-backgrounds-7.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: rgb(255, 255, 211);
+}
+h1{ 
+    color: white;
+    background-color: rgb(18, 25, 87);
+    height: 5rem;
+    line-height: 5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    font-size: 100px;
+    margin-top: 3rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:5rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.msg-display{
+    display: inline;
+    border-radius:0.7rem;
+    background-color: rgb(39, 38, 103);
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+#paper,#rock,#scissor{
+    background-color: rgb(206, 229, 250);
+    padding: 0.2rem;
+    border-radius: 50rem;
+}
+.score-board #your-score p,.score-board #comp-score p{
+    margin-top: 1rem;
+
+}
+#comp-score p:nth-of-type(2),#your-score p:nth-of-type(2){
+   display: inline;
+  padding: 0.5rem;
+  color: rgb(73, 73, 9);
+  font-style: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#comp-score p:nth-of-type(1),#your-score p:nth-of-type(1){
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
